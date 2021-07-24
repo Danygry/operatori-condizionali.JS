@@ -24,3 +24,15 @@ if (year < 2016) {
 } else {
   alert( 'giusto' );
 }
+
+
+//operatore condizionale '?'
+let accessAllowed;
+let age = prompt( 'Quanti anni hai?', '');
+if (age > 26) {
+  accessAllowed = true;
+} else {
+  accessAllowed = false;
+}
+alert( accessAllowed);
+  
