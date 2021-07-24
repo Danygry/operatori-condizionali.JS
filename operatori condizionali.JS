@@ -35,4 +35,13 @@ if (age > 26) {
   accessAllowed = false;
 }
 alert( accessAllowed);
+
+
+//operatori multipli
+let age = prompt('age');
+let message = (age < 5) ? 'Piccolo' :
+ (age < 18) ? 'Benvenuto' :
+ (age < 30) ? 'Congratulazioni' :
+ 'Età giusta!' ;
+alert( message);
   
