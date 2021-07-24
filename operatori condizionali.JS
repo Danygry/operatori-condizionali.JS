@@ -1,4 +1,4 @@
-//istruzione if
+//istruzione "if"
 let year = prompt('Quando è stata fatta la regola?','');
 if (year == 2016) {
   alert( "risultato corretto" );
